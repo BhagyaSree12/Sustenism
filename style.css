@@ -238,11 +238,12 @@ button:hover {
   }
 .but{
     align-items: center;
-    margin-left:45%;
+    margin-left:46%;
     
 }
 .but button{
   background: rgb(4, 24, 4);
+  margin-bottom: 80px;
   
 }
 .but h3{
