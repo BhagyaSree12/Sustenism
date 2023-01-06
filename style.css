@@ -187,6 +187,12 @@ body {
 
   .main {
     margin: 2%;
+    margin-top: 100px;
+  }
+  .main h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
   }
   button {
   margin-top: 40px;
@@ -209,16 +215,38 @@ button:hover {
 }
 
   .card {
-    width: 20%;
-    height: 80%;
+    
+    height: 280px;
+    width: 250px;
     display: inline-block;
     box-shadow: 2px 2px 20px black;
     border-radius: 5px;
     margin: 2%;
+    /* padding: 10px; */
+  }
+  .card:hover{
+    height: 330px;
+    width: 300px;
+  }
+  .pic img{
+    height: 280px;
+    width: 250px;
+  }
+  .pic img:hover{
+    height: 330px;
+    width: 300px;
   }
 .but{
     align-items: center;
-    margin-left:50%;
+    margin-left:45%;
+    
+}
+.but button{
+  background: rgb(4, 24, 4);
+  
+}
+.but h3{
+  color: aliceblue;
 }
   .image img {
     width: 100%;
@@ -234,7 +262,7 @@ button:hover {
   h1 {
     font-size: 20px;
   }
-  .box{
+  /* .box{
     width: 20%;
     height: 80%;
     display: inline-block;
@@ -245,6 +273,11 @@ button:hover {
     grid-template-columns: 1fr 1fr;
     float: left; 
   }
+<<<<<<< HEAD
+  .box ul{
+    list-style-type:none ;
+  } */
+=======
   time{
     text-align: center;
     margin-right: 100px;
@@ -460,3 +493,4 @@ button:hover {
     /* text-align: center; */
     /* margin-right: 50%; */
   }
+>>>>>>> 01c97f43881994e9cace9778faa2dfd2120aae74
